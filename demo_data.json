@@ -1,0 +1,42 @@
+[
+  {
+    "model": "cases.case",
+    "pk": "00000000-0000-0000-0000-000000000001",
+    "fields": {
+      "created_at": "2025-11-12T10:00:00Z",
+      "updated_at": "2025-11-12T10:00:00Z",
+      "reference": "C-2025-0001",
+      "title": "Smith v Smith (children/finance)",
+      "status": "ENQUIRY",
+      "notes": "Example case created by demo fixture."
+    }
+  },
+  {
+    "model": "cases.party",
+    "pk": "00000000-0000-0000-0000-000000000002",
+    "fields": {
+      "created_at": "2025-11-12T10:00:00Z",
+      "updated_at": "2025-11-12T10:00:00Z",
+      "case": "00000000-0000-0000-0000-000000000001",
+      "first_name": "Alex",
+      "last_name": "Smith",
+      "email": "alex@example.com",
+      "phone": "07123456789",
+      "is_applicant": true
+    }
+  },
+  {
+    "model": "cases.party",
+    "pk": "00000000-0000-0000-0000-000000000003",
+    "fields": {
+      "created_at": "2025-11-12T10:00:00Z",
+      "updated_at": "2025-11-12T10:00:00Z",
+      "case": "00000000-0000-0000-0000-000000000001",
+      "first_name": "Jordan",
+      "last_name": "Smith",
+      "email": "jordan@example.com",
+      "phone": "07987654321",
+      "is_applicant": false
+    }
+  }
+]
